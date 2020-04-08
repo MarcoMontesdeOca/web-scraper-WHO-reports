@@ -149,5 +149,6 @@ fig = plt.gcf()
 fig.savefig('Covid19_countries.png', dpi = 100)
 plt.close()
 ```
-![Finally, we obtain a plot like this one.](https://github.com/MarcoMontesdeOca/web-scraper-WHO-reports/blob/master/Covid19_countries.png)
+Finally, we obtain a plot like this one
+![Covid19_countries](https://github.com/MarcoMontesdeOca/web-scraper-WHO-reports/blob/master/Covid19_countries.png)
 
