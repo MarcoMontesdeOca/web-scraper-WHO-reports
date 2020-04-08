@@ -138,17 +138,12 @@ total_cases = total_cases.set_index('Day')
 import matplotlib.pyplot as plt
 import os
 cwd = os.getcwd() #find current working directory
-os.chdir('/home/marco/Desktop/CoV')
+os.chdir('/home/your/directory/here')
 
 plt.close('all')
 plt.figure(figsize=(8,4.5))
+total_cases.plot()
 plt.ylabel('Confirmed cases with CoVid-19', fontsize=14)
 plt.xlabel('Days from 19 Feb', fontsize=14)
-total_cases.plot()
-fig = plt.gcf()
-fig.savefig('Covid19_countries.png', dpi = 100)
-plt.close()
 ```
-Finally, we obtain a plot like this one
-![Covid19_countries](https://github.com/MarcoMontesdeOca/web-scraper-WHO-reports/blob/master/Covid19_countries.png)
 
