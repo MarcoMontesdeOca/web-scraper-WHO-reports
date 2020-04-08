@@ -146,4 +146,5 @@ total_cases.plot()
 plt.ylabel('Confirmed cases with CoVid-19', fontsize=14)
 plt.xlabel('Days from 19 Feb', fontsize=14)
 ```
-
+Finally, we obtain a plot like this one
+![Covid19_countries](https://github.com/MarcoMontesdeOca/web-scraper-WHO-reports/blob/master/covid19_plot.png)
